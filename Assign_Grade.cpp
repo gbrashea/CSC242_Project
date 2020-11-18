@@ -1,6 +1,6 @@
 //CSC242 Project
 
-//This is a cleaned up version of the original.
+//Tracking changes through the Git CMD/Bash.
 
 #include <iostream>
 #include <string>
@@ -38,7 +38,7 @@ int main()
             grade = 'B';
         else if (scores[i] >= best - 25)
             grade = 'C';
-        else if (scores[i] >= best - 35)
+        else if (scores[i] >= best - 30)
             grade = 'D';
         else
             grade = 'F';
