@@ -1,6 +1,7 @@
 //CSC242 Project
 
 //Tracking changes through the Git CMD/Bash.
+//Now doing Diffs
 
 #include <iostream>
 #include <string>
@@ -30,15 +31,15 @@ int main()
     char grade;
     for (int i = 0; i < numberOfScores; i++)
     {
-        if (scores[i] >= best - 10)
+        if (scores[i] >= best - 5)
         {
             grade = 'A';
         }
-        else if (scores[i] >= best - 15)
+        else if (scores[i] >= best - 10)
             grade = 'B';
-        else if (scores[i] >= best - 25)
+        else if (scores[i] >= best - 15)
             grade = 'C';
-        else if (scores[i] >= best - 30)
+        else if (scores[i] >= best - 25)
             grade = 'D';
         else
             grade = 'F';
